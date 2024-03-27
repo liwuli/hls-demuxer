@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "author": "李武林 <liwulin@sobey.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "demuxer": "^2.3.0",
+    "hls.js": "^1.5.7",
+    "ts-demuxer": "^1.1.1",
+    "umi": "^4.1.2",
+    "xgplayer": "^3.0.13",
+    "xgplayer-hls": "^3.0.13",
+    "xgplayer-hls.js": "^3.0.13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}
